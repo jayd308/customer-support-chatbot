@@ -1,7 +1,7 @@
 const Business = require('../models/Business');
 const User = require('../models/User');
 
-// Get business profile
+// emmanuel
 const getBusiness = async (req, res) => {
   try {
     const business = await Business.findById(req.user.businessId);
